@@ -1,0 +1,96 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f3f8;
+    color: #292929;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 28px;
+    background-color: #ffffff;
+    border: 1px solid #d8d8df;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.voltar {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #5148c8;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.voltar:hover {
+    color: #39319d;
+}
+
+h1 {
+    margin: 0 0 24px;
+    font-size: 28px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 17px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #c9c9d2;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #292929;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #625bd5;
+    box-shadow: 0 0 0 3px rgba(98, 91, 213, 0.13);
+}
+
+#botaoCadastrar {
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #625bd5;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#botaoCadastrar:hover {
+    background-color: #4f48bc;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
